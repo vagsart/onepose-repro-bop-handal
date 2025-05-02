@@ -14,7 +14,8 @@ Download the HANDAL dataset from the BOP benchmark:
 Run the following script after modifying the dataset paths to match your local setup:
 
 
-```bash scripts/batch_run_handal.sh
+```bash 
+bash scripts/batch_run_handal.sh
 ```
 
 This creates the required folder structure and intermediate files so that OnePose and OnePose++ can run bypassing the first step in demo pipelines.
@@ -22,7 +23,8 @@ This creates the required folder structure and intermediate files so that OnePos
 ### 3. Run Demo Pipeline
 Execute the modified demo pipeline from **OnePose++** directory using:
 
-```bash path/to/repo/scripts/demo_pipeline.sh
+```bash
+bash path/to/repo/scripts/demo_pipeline.sh
 ```
 
 This will run OnePose++ for all combinations of onboarding and test scenes.
@@ -38,7 +40,8 @@ To quickly test the pipeline:
 
 2. Run the demo pipeline from the original OnePose or OnePose++ repository **after commenting out the first step**, which generates intermediate files already included in the download:
 
-```bash scripts/demo_pipeline.sh
+```bash
+bash scripts/demo_pipeline.sh
 ```
 3. View the results here: 
    [Insert link to results]
