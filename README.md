@@ -8,7 +8,7 @@ This repository prepares **HANDAL dataset** for **OnePose** and **OnePose++**.
 
 ### 1. Download the HANDAL Dataset
 Download the HANDAL dataset from the BOP benchmark:
-[Insert dataset link here]
+[Link](https://bop.felk.cvut.cz/datasets/#HANDAL)
 
 ### 2. Prepare Folder Structure
 Run the following script after modifying the dataset paths to match your local setup:
@@ -36,7 +36,7 @@ This will run OnePose++ for all combinations of onboarding and test scenes.
 To quickly test the pipeline:
 
 1. Download the pre-structured folders in OnePose / OnePose++ format:
-   [Insert link to structured data]
+   [Sample Data](LINK)
 
 2. Run the demo pipeline from the original OnePose or OnePose++ repository **after commenting out the first step**, which generates intermediate files already included in the download:
 
@@ -44,8 +44,8 @@ To quickly test the pipeline:
 bash scripts/demo_pipeline.sh
 ```
 3. View the results here: 
-   [Insert link to results]
-
+   1. [Successful detection](https://github.com/vagsart/onepose-repro-bop-handal/blob/main/results/onb_000020_scene_000010.mp4)
+   2. [Failed detection](https://github.com/vagsart/onepose-repro-bop-handal/blob/main/results/onb_000037_scene_000001.mp4)
 ---
 
 ## Notes
