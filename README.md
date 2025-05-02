@@ -36,7 +36,7 @@ This will run OnePose++ for all combinations of onboarding and test scenes.
 To quickly test the pipeline:
 
 1. Download the pre-structured folders in OnePose / OnePose++ format:
-   [Sample Data](LINK)
+   [Sample Data](https://ntuagr-my.sharepoint.com/:u:/g/personal/vsartinas_ntua_gr/EQKGC9VklJRLvJMmHPmdza4BYQfT7RLzwnc_TFaYNM2a4g?e=1TqEsh)
 
 2. Run the demo pipeline from the original OnePose or OnePose++ repository **after commenting out the first step**, which generates intermediate files already included in the download:
 
